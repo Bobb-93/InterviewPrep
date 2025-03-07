@@ -1,0 +1,36 @@
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  border: 1px solid black;
+}
+
+.pagination a.active {
+  background-color: #009900;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #d4d5d2;
+}
+
+.GFG {
+  font-size: 42px;
+  font-weight: bold;
+  color: #009900;
+  margin-left: 100px;
+  margin-bottom: 60px;
+}
+
+.peg {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 140px;
+  margin-bottom: 20px;
+}
