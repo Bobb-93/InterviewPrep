@@ -1,0 +1,40 @@
+<!DOCTYPE html> 
+<html> 
+ 
+<head>
+    <title>
+        HTML DOM Form submit() Method
+    </title>
+</head>
+ 
+<body style="text-align:center;"> 
+ 
+    <h1 style="color:green;">
+        GeeksForGeeks
+    </h1>
+     
+    <!-- HTML code to create form -->
+    <h2>DOM Form submit() Method</h2>
+     
+    <form id="GFG" action="https://ide.geeksforgeeks.org/tryit.php">
+          <label for="username">Username:</label> 
+        <input type="text" name="username" id="Username">
+         
+        <br>
+         
+        <label for="password">Password:</label> 
+        <input type="password" name="password" id ="password">
+         
+        <br><br>
+          <input type="button" onclick="myGeeks()" value="Submit form">
+    </form>
+ 
+    <!-- script to use submit() method -->
+    <script>
+        function myGeeks() {
+              document.getElementById("GFG").submit();
+        }
+    </script>
+</body>
+ 
+</html>
