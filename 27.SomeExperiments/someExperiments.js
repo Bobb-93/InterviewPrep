@@ -20,3 +20,10 @@ console.log('-----------');
 
 console.log(1 < 2 < 3); 
 console.log(3 > 2 > 1);
+
+console.log('-----------');
+
+const obj1 = { a: 1 };
+const obj2 = { a: 1 };
+console.log(obj1 == obj2);
+console.log(obj1 === obj2);
